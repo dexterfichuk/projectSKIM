@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/dexter/Downloads/projectSKIMr2/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/Users/dexter/Downloads/projectSKIMr2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
         "source": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }

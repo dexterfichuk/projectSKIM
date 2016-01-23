@@ -1,129 +1,129 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:2:1-49:12
-	xmlns:android
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:2:11-69
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:2:1-49:12
 	package
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:3:5-39
-		INJECTED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:5:5-32
-		INJECTED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:7:5-73
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:7:5-73
 	android:targetSdkVersion
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:7:42-71
-		INJECTED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:7:42-71
+		INJECTED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:7:15-41
-		INJECTED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:7:15-41
+		INJECTED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.NFC
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:8:2-59
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:8:2-59
 	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:8:19-56
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:8:19-56
 uses-feature#android.hardware.nfc
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:9:2-78
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:9:2-78
 	android:required
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:9:52-75
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:9:52-75
 	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:9:16-51
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:9:16-51
 uses-permission#android.permission.INTERNET
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:10:2-63
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:10:2-63
 	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:10:19-61
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:10:19-61
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:11:2-77
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:11:2-77
 	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:11:19-75
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:11:19-75
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:12:5-67
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:12:22-65
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:12:22-65
 application
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:14:5-47:19
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:14:5-47:19
 	android:label
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:16:9-41
 	android:allowBackup
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:17:9-36
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:17:9-36
 	android:icon
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:15:9-45
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:15:9-45
 activity#org.eleetas.nfc.nfcproxy.SelectorActivity
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:19:9-41:20
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:19:9-41:20
+	android:label
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:21:13-45
 	android:noHistory
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:22:13-37
-	android:label
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:21:13-45
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:20:13-69
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:20:13-69
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:24:13-27:29
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:24:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:25:17-69
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:25:25-66
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:26:27-74
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:26:27-74
 intent-filter#android.intent.category.DEFAULT+android.nfc.action.NDEF_DISCOVERED
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:28:13-32:23
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:28:13-32:23
 action#android.nfc.action.NDEF_DISCOVERED
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:29:5-64
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:29:5-64
 	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:29:13-62
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:29:13-62
 data
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:30:5-36
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:30:5-36
 	android:mimeType
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:30:11-33
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:30:11-33
 category#android.intent.category.DEFAULT
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:31:7-65
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:31:7-65
 	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:31:17-63
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:31:17-63
 intent-filter#android.intent.category.DEFAULT+android.nfc.action.ACTION_TECH_DISCOVERED
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:33:13-36:23
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:33:13-36:23
 action#android.nfc.action.ACTION_TECH_DISCOVERED
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:34:5-71
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:34:5-71
 	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:34:13-69
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:34:13-69
 intent-filter#android.intent.category.DEFAULT+android.nfc.action.TAG_DISCOVERED
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:37:13-40:20
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:37:13-40:20
 action#android.nfc.action.TAG_DISCOVERED
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:38:5-63
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:38:5-63
 	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:38:13-61
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:38:13-61
 activity#org.eleetas.nfc.nfcproxy.NFCProxyActivity
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:42:9-146
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:42:9-146
 	android:label
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:42:76-108
-	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:42:19-75
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:42:76-108
 	android:launchMode
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:42:109-144
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:42:109-144
+	android:name
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:42:19-75
 activity#org.eleetas.nfc.nfcproxy.NFCRelayActivity
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:43:9-146
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:43:9-146
 	android:label
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:43:76-108
-	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:43:19-75
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:43:76-108
 	android:launchMode
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:43:109-144
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:43:109-144
+	android:name
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:43:19-75
 activity#org.eleetas.nfc.nfcproxy.SettingsActivity
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:44:9-110
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:44:9-110
 	android:label
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:44:76-108
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:44:76-108
 	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:44:19-75
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:44:19-75
 activity#org.eleetas.nfc.nfcproxy.SettingsActivityCompat
-ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:45:9-116
+ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:45:9-116
 	android:label
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:45:82-114
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:45:82-114
 	android:name
-		ADDED from /Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/AndroidManifest.xml:45:19-81
+		ADDED from /Users/dexter/Downloads/projectSKIMr2/app/src/main/AndroidManifest.xml:45:19-81

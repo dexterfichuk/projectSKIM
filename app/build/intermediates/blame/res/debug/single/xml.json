@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/Users/dexter/StudioProjects/projectSKIM/app/build/intermediates/res/merged/debug/xml/preferences.xml",
-        "source": "/Users/dexter/StudioProjects/projectSKIM/app/src/main/res/xml/preferences.xml"
+        "merged": "/Users/dexter/Downloads/projectSKIMr2/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/dexter/Downloads/projectSKIMr2/app/src/main/res/xml/preferences.xml"
     },
     {
         "merged": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/dexter/StudioProjects/projectSKIM/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/dexter/StudioProjects/projectSKIM/app/src/main/res/xml/preferences.xml"
     }
 ]

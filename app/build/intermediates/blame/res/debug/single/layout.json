@@ -1,15 +1,35 @@
 [
     {
-        "merged": "/Users/dexter/StudioProjects/projectSKIM/app/build/intermediates/res/merged/debug/layout/relay.xml",
-        "source": "/Users/dexter/StudioProjects/projectSKIM/app/src/main/res/layout/relay.xml"
-    },
-    {
         "merged": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/build/intermediates/res/merged/debug/layout/selector.xml",
         "source": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/res/layout/selector.xml"
     },
     {
-        "merged": "/Users/dexter/StudioProjects/projectSKIM/app/build/intermediates/res/merged/debug/layout/proxy.xml",
-        "source": "/Users/dexter/StudioProjects/projectSKIM/app/src/main/res/layout/proxy.xml"
+        "merged": "/Users/dexter/Downloads/projectSKIMr2/app/build/intermediates/res/merged/debug/layout/proxy.xml",
+        "source": "/Users/dexter/Downloads/projectSKIMr2/app/src/main/res/layout/proxy.xml"
+    },
+    {
+        "merged": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/build/intermediates/res/merged/debug/layout/save_dialog.xml",
+        "source": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/res/layout/save_dialog.xml"
+    },
+    {
+        "merged": "/Users/dexter/Downloads/projectSKIMr2/app/build/intermediates/res/merged/debug/layout/save_tab.xml",
+        "source": "/Users/dexter/Downloads/projectSKIMr2/app/src/main/res/layout/save_tab.xml"
+    },
+    {
+        "merged": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/build/intermediates/res/merged/debug/layout/relay.xml",
+        "source": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/res/layout/relay.xml"
+    },
+    {
+        "merged": "/Users/dexter/StudioProjects/projectSKIM/app/build/intermediates/res/merged/debug/layout/selector.xml",
+        "source": "/Users/dexter/StudioProjects/projectSKIM/app/src/main/res/layout/selector.xml"
+    },
+    {
+        "merged": "/Users/dexter/Downloads/projectSKIMr2/app/build/intermediates/res/merged/debug/layout/save_dialog.xml",
+        "source": "/Users/dexter/Downloads/projectSKIMr2/app/src/main/res/layout/save_dialog.xml"
+    },
+    {
+        "merged": "/Users/dexter/StudioProjects/projectSKIM/app/build/intermediates/res/merged/debug/layout/relay.xml",
+        "source": "/Users/dexter/StudioProjects/projectSKIM/app/src/main/res/layout/relay.xml"
     },
     {
         "merged": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/build/intermediates/res/merged/debug/layout/save_tab.xml",
@@ -20,23 +40,23 @@
         "source": "/Users/dexter/StudioProjects/projectSKIM/app/src/main/res/layout/save_dialog.xml"
     },
     {
-        "merged": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/build/intermediates/res/merged/debug/layout/relay.xml",
-        "source": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/res/layout/relay.xml"
+        "merged": "/Users/dexter/StudioProjects/projectSKIM/app/build/intermediates/res/merged/debug/layout/save_tab.xml",
+        "source": "/Users/dexter/StudioProjects/projectSKIM/app/src/main/res/layout/save_tab.xml"
+    },
+    {
+        "merged": "/Users/dexter/StudioProjects/projectSKIM/app/build/intermediates/res/merged/debug/layout/proxy.xml",
+        "source": "/Users/dexter/StudioProjects/projectSKIM/app/src/main/res/layout/proxy.xml"
+    },
+    {
+        "merged": "/Users/dexter/Downloads/projectSKIMr2/app/build/intermediates/res/merged/debug/layout/selector.xml",
+        "source": "/Users/dexter/Downloads/projectSKIMr2/app/src/main/res/layout/selector.xml"
     },
     {
         "merged": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/build/intermediates/res/merged/debug/layout/proxy.xml",
         "source": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/res/layout/proxy.xml"
     },
     {
-        "merged": "/Users/dexter/StudioProjects/projectSKIM/app/build/intermediates/res/merged/debug/layout/selector.xml",
-        "source": "/Users/dexter/StudioProjects/projectSKIM/app/src/main/res/layout/selector.xml"
-    },
-    {
-        "merged": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/build/intermediates/res/merged/debug/layout/save_dialog.xml",
-        "source": "/Users/yashmorabbiheravi/Desktop/projectSKIM/app/src/main/res/layout/save_dialog.xml"
-    },
-    {
-        "merged": "/Users/dexter/StudioProjects/projectSKIM/app/build/intermediates/res/merged/debug/layout/save_tab.xml",
-        "source": "/Users/dexter/StudioProjects/projectSKIM/app/src/main/res/layout/save_tab.xml"
+        "merged": "/Users/dexter/Downloads/projectSKIMr2/app/build/intermediates/res/merged/debug/layout/relay.xml",
+        "source": "/Users/dexter/Downloads/projectSKIMr2/app/src/main/res/layout/relay.xml"
     }
 ]
