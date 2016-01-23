@@ -42,7 +42,7 @@
     <string name="mode_desc">Runs in relay mode if checked. Proxy mode if not checked.</string>
 	<string name="name">Name</string>
 	<string name="ndef_discovered">NDEF tag discovered</string>
-    <string name="nfcproxy">NFCProxy</string>
+    <string name="nfcproxy">Project Skim Proxy</string>
     <string name="nfcproxy_connected_no_tag">NFCProxy connected, but NFCRelay has no tag</string>    
     <string name="nfcrelay">NFCRelay</string>
     <string name="nfcrelay_not_ready">NFCRelay not ready</string>    

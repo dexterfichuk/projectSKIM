@@ -77,6 +77,7 @@ import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
 import javax.crypto.spec.SecretKeySpec;
 
+
 @SuppressLint("NewApi")
 public class NFCProxyActivity extends Activity {
     

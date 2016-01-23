@@ -43,22 +43,22 @@ public class TagHelper {
 	    	else if (data.length > 9 && data[0] == 0x70 && data[8] == 0x56 ) {
 	    		//TODO: Length error checking
 	    		/*
-	    		 * PayPass Ð M/ChipTechnical Specifications (https://docs.google.com/viewer?a=v&q=cache:O0rYe0zxyegJ:read.pudn.com/downloads161/doc/725864/PayPass%2520-%2520MChip%2520(V1.3).pdf+mastercard+mchip+technical+specification&hl=en&gl=us&pid=bl&srcid=ADGEESjl5lr24scpx8am0GSqalJj0iIa7NZNK1_XGsjw0pUqBnhIlCH4ZLu4UcbQKHP3IQxTNDbcWRSeu0sSbShZ7SInM0afHwwO6S5VOgrqvj4l44mO9UeltVVreEfRyCMUM8sLIqWm&sig=AHIEtbTWQac_EGUzlfP4hZiFavpSJnmsCw)
+	    		 * PayPass ï¿½ M/ChipTechnical Specifications (https://docs.google.com/viewer?a=v&q=cache:O0rYe0zxyegJ:read.pudn.com/downloads161/doc/725864/PayPass%2520-%2520MChip%2520(V1.3).pdf+mastercard+mchip+technical+specification&hl=en&gl=us&pid=bl&srcid=ADGEESjl5lr24scpx8am0GSqalJj0iIa7NZNK1_XGsjw0pUqBnhIlCH4ZLu4UcbQKHP3IQxTNDbcWRSeu0sSbShZ7SInM0afHwwO6S5VOgrqvj4l44mO9UeltVVreEfRyCMUM8sLIqWm&sig=AHIEtbTWQac_EGUzlfP4hZiFavpSJnmsCw)
 	    		 * 
-	    		 * Tag: Ô56Õ
+	    		 * Tag: ï¿½56ï¿½
 	    		 * ans, variable length up to 76 bytes
 	    		 * The Track 1 Data contains the data elements of the track 1 according
 	    		 * to ISO/IEC 7813 Structure B, excluding start sentinel, end sentinel
 	    		 * and LRC.
-	    		 * Format Code (hex Ô42Õ (B))
+	    		 * Format Code (hex ï¿½42ï¿½ (B))
 	    		 * 1 byte
 	    		 * Identification Number (PAN)
 	    		 * var. up to 19 bytes
-	    		 * Field Separator (hex. Ô5EÕ (^))
+	    		 * Field Separator (hex. ï¿½5Eï¿½ (^))
 	    		 * 1 byte
 	    		 * Name (see ISO/IEC 7813)
 	    		 * 2 to 26 bytes
-	    		 * Field Separator (hex. Ô5EÕ (^))
+	    		 * Field Separator (hex. ï¿½5Eï¿½ (^))
 	    		 * 1 byte
 	    		 * Expiry Date (YYMM)
 	    		 * 4 bytes
