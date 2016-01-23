@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/dexter/StudioProjects/projectSKIM/app/build/intermediates/res/merged/debug/menu/menu.xml",
+        "source": "/Users/dexter/StudioProjects/projectSKIM/app/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/Users/dexter/StudioProjects/projectSKIM/app/build/intermediates/res/merged/debug/menu/saved_context_menu.xml",
+        "source": "/Users/dexter/StudioProjects/projectSKIM/app/src/main/res/menu/saved_context_menu.xml"
+    },
+    {
+        "merged": "/Users/dexter/StudioProjects/projectSKIM/app/build/intermediates/res/merged/debug/menu/data_context_menu.xml",
+        "source": "/Users/dexter/StudioProjects/projectSKIM/app/src/main/res/menu/data_context_menu.xml"
+    }
+]
